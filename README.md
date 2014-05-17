@@ -14,6 +14,10 @@ Makes the fake smtp mail service what uses for exo social notification sending m
 
     Windows: extension.bat --install custom-extension
 
-7. Start FakeSMTP mail server.
+7. Start FakeSMTP mail server. 
 
 java -jar fakeSMTP.jar -o OUTPUT_FOLDER_MAIL
+
+8. Start server with port 2525
+
+9. Run eXo PLF tomcat bundle.
