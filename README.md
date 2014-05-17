@@ -13,3 +13,7 @@ Makes the fake smtp mail service what uses for exo social notification sending m
     Linux/Mac: ./extension.sh --install custom-extension
 
     Windows: extension.bat --install custom-extension
+
+7. Start FakeSMTP mail server.
+
+java -jar fakeSMTP.jar -o OUTPUT_FOLDER_MAIL
